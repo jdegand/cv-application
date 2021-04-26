@@ -1,0 +1,17 @@
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label {
+  display: inline-block;
+  width: 125px;
+  text-align: right;
+  margin-left: auto;
+}
+
+select,
+textarea {
+
+}
