@@ -1,70 +1,56 @@
-# Getting Started with Create React App
+# CV Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[Odin Project](https://web.archive.org/web/20210124014840/https://theodinproject.com/courses/javascript/lessons/cv-application)
 
-## Available Scripts
+## Table of contents
 
-In the project directory, you can run:
+- [Overview](#overview)
+  - [Screenshot](#screenshot)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [Requirements](#requirements)
+  - [What I learned](#what-i-learned)
 
-### `npm start`
+## Overview
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+[Live Link](https://jdegand.github.io/cv-application/)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Screenshot
 
-### `npm test`
+![](cv-application.png)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## My process
 
-### `npm run build`
+### Built with
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- React
+- React Class Components
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Requirements 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [x] Create a new project using npx create-react-app cv-project. 
+- [x] Remove the boilerplate code created by create-react-app.
+Your application should include:
+- [x] A section to add general information like name, email, phone number.
+- [x] A section to add your educational experience (school name, title of study, date of study)
+- [x] A section to add practical experience (company name, position title, main tasks of your jobs, date from and until when you worked for that company)
+- [x]  The submit button should submit your form and display the value of your input fields in HTML elements. 
+- [ ] The edit button should add back (display) the input fields, with the previously displayed information as values. In those input fields, you should be able to edit and resubmit the content. 
+- [x] Create a components folder in your src directory and add your components.
+- [ ] Include a styles folder in your src directory for your CSS files. You’ll need to import these in the component files to use them.
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+### What I learned
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- I should have better documented my code at the start.  I was doing these challenges as quick as possible and neglected to add better readmes.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Really simple form implementation.  
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- The content after submit is editable before you wouldn't know it useless you clicked on some of the returned text.  
+- I did that instead of implementing edit button.  
 
-## Learn More
+- Didn't require all fields or add validation.  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Didn't really style this or think much about performance.  
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Could have of broken up form into 3 forms and used a state manager.  
